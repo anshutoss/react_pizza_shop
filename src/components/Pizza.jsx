@@ -11,7 +11,7 @@ const Pizza = ({ pizza }) => {
       <Card style={{ width: "18rem", marginTop: "30px" }}>
         <Card.Img
           variant="top"
-          src={pizza.image}
+          src={pizza.img_url}
           style={{ height: "250px", cursor: "pointer" }}
    
         />
@@ -20,11 +20,10 @@ const Pizza = ({ pizza }) => {
           <Card.Title>{pizza.name}</Card.Title>
           <hr />
           <Card.Text>
-            <Row>
+            {/* <Row>
               <Col md={6}>
                 <h6>Varients</h6>
                 <select
-                  
                 >
                   {pizza.varients.map((varient) => (
                     <option key={varient}>{varient}</option>
@@ -43,7 +42,7 @@ const Pizza = ({ pizza }) => {
                   ))}
                 </select>
               </Col>
-            </Row>
+            </Row> */}
           </Card.Text>
           <Row> 
  
@@ -60,10 +59,10 @@ const Pizza = ({ pizza }) => {
       </Card>
 
       {/* modal */}
-    
+{/*     
         <Modal.Header closeButton>
           <Modal.Title>{pizza.name}</Modal.Title>
-        </Modal.Header>
+        </Modal.Header> */}
       
     </>
   );
