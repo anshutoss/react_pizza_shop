@@ -23,7 +23,7 @@ const TopBar = () => {
               <Nav.Link>Contact Us</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/policy" activeClassName="">
-              <Nav.Link> policy</Nav.Link>
+              <Nav.Link>terms and policy</Nav.Link>
             </LinkContainer>
           </Nav>
         </Container>

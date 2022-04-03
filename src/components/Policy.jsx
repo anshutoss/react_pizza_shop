@@ -1,80 +1,121 @@
 import React from "react";
-import { Container, Row, Col, Table, Image } from "react-bootstrap";
-import { FiPhoneCall } from "react-icons/fi";
-import { ImMobile } from "react-icons/im";
-import { AiOutlineMail } from "react-icons/ai";
-const Contact = () => {
+import { Container, Row, Col } from "react-bootstrap";
+
+const Policy = () => {
   return (
     <>
       <Container style={{ marginTop: "50px" }}>
+        <h1>Terms and policy</h1>
         <Row>
-          <Col md={6}>
-            <h1>Techinfo YT Pizza Shop</h1>
+          <Col md={10}>
+            <h6>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+              praesentium?
+            </h6>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
-              nostrum magni voluptatem perferendis dolorum nisi architecto
-              maxime voluptas exercitationem. Omnis, iure laudantium eveniet
-              voluptas corrupti deserunt minima. Omnis dolore unde, esse magnam
-              animi nesciunt velit impedit eveniet voluptates beatae libero
-              laboriosam soluta dolorem odio delectus nisi suscipit quaerat
-              repudiandae ratione? Cum fugit inventore porro, ipsum quas
-              voluptas? Optio assumenda ut rem totam ea, sequi consequuntur eos
-              magnam asperiores fugiat repudiandae dolor rerum praesentium a
-              deleniti doloribus exercitationem officiis odio iure quis minus
-              omnis quisquam cumque aperiam. Dolorum sed fugit voluptates vel
-              quia sit molestias. Voluptas sint at maxime saepe, fuga
-              exercitationem incidunt eveniet esse laudantium itaque dolores
-              reiciendis nihil quia iste minus minima quas ut doloremque
-              delectus reprehenderit quo voluptate molestiae omnis earum. Nemo
-              corporis possimus, ea animi quis ipsam, dolorem facere eum sint
-              adipisci aperiam odit repellendus inventore qui eius magnam cumque
-              iste, sit maiores iusto modi distinctio reiciendis. Voluptatem
-              omnis nam iste culpa, a pariatur facere debitis mollitia impedit
-              ea, similique iusto veritatis ab. Eum sint possimus facilis
-              praesentium nostrum iure voluptatem, explicabo dolorum, illum
-              maxime corrupti itaque esse aspernatur voluptates, in officiis
-              temporibus obcaecati. Sunt ad velit beatae deserunt ab iure
-              veritatis modi dolorum? Quisquam, reiciendis iusto.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam
+              officia nemo unde neque iusto minima reiciendis vitae nam deserunt
+              qui nulla rem voluptas, non velit earum, corrupti delectus sint!
+              Quibusdam quam aliquam eveniet molestias fuga assumenda culpa at,
+              temporibus tempore perspiciatis repellat architecto iste
+              aspernatur repellendus quaerat reprehenderit libero excepturi iure
+              nisi! Ipsum unde voluptatibus repellendus provident esse aliquam
+              labore, inventore ex autem nobis sunt. Cupiditate unde impedit
+              ullam blanditiis quos molestias molestiae modi iusto dignissimos,
+              sed architecto? Officiis, esse perferendis. Dolor dolores
+              voluptates quos, officia voluptatibus nesciunt voluptatum
+              voluptatem ipsa, minus magni, quisquam illum sit quis itaque quas.
             </p>
-
-            <Table striped bordered hover className="text-center">
-              <thead>
-                <tr>
-                  <th className="bg-warning text-center" colSpan={3}>
-                    --- Contact Details ---
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    <FiPhoneCall />
-                  </td>
-                  <td>Phone</td>
-                  <td>0123-456789</td>
-                </tr>
-                <tr>
-                  <td>
-                    <ImMobile />
-                  </td>
-                  <td>Call</td>
-                  <td>1234567890</td>
-                </tr>
-                <tr>
-                  <td>
-                    <AiOutlineMail />
-                  </td>
-                  <td>Email</td>
-                  <td>Help@urdomain.com</td>
-                </tr>
-              </tbody>
-            </Table>
-          </Col>
-          <Col md={6}>
-            <Image
-              src="images/farmhouse.jpg"
-              style={{ width: "100%", height: "100%" }}
-            />
+            <h6>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+              praesentium?
+            </h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam
+              officia nemo unde neque iusto minima reiciendis vitae nam deserunt
+              qui nulla rem voluptas, non velit earum, corrupti delectus sint!
+              Quibusdam quam aliquam eveniet molestias fuga assumenda culpa at,
+              temporibus tempore perspiciatis repellat architecto iste
+              aspernatur repellendus quaerat reprehenderit libero excepturi iure
+              nisi! Ipsum unde voluptatibus repellendus provident esse aliquam
+              labore, inventore ex autem nobis sunt. Cupiditate unde impedit
+              ullam blanditiis quos molestias molestiae modi iusto dignissimos,
+              sed architecto? Officiis, esse perferendis. Dolor dolores
+              voluptates quos, officia voluptatibus nesciunt voluptatum
+              voluptatem ipsa, minus magni, quisquam illum sit quis itaque quas.
+            </p>
+            <h6>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+              praesentium?
+            </h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam
+              officia nemo unde neque iusto minima reiciendis vitae nam deserunt
+              qui nulla rem voluptas, non velit earum, corrupti delectus sint!
+              Quibusdam quam aliquam eveniet molestias fuga assumenda culpa at,
+              temporibus tempore perspiciatis repellat architecto iste
+              aspernatur repellendus quaerat reprehenderit libero excepturi iure
+              nisi! Ipsum unde voluptatibus repellendus provident esse aliquam
+              labore, inventore ex autem nobis sunt. Cupiditate unde impedit
+              ullam blanditiis quos molestias molestiae modi iusto dignissimos,
+              sed architecto? Officiis, esse perferendis. Dolor dolores
+              voluptates quos, officia voluptatibus nesciunt voluptatum
+              voluptatem ipsa, minus magni, quisquam illum sit quis itaque quas.
+            </p>
+            <h6>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+              praesentium?
+            </h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam
+              officia nemo unde neque iusto minima reiciendis vitae nam deserunt
+              qui nulla rem voluptas, non velit earum, corrupti delectus sint!
+              Quibusdam quam aliquam eveniet molestias fuga assumenda culpa at,
+              temporibus tempore perspiciatis repellat architecto iste
+              aspernatur repellendus quaerat reprehenderit libero excepturi iure
+              nisi! Ipsum unde voluptatibus repellendus provident esse aliquam
+              labore, inventore ex autem nobis sunt. Cupiditate unde impedit
+              ullam blanditiis quos molestias molestiae modi iusto dignissimos,
+              sed architecto? Officiis, esse perferendis. Dolor dolores
+              voluptates quos, officia voluptatibus nesciunt voluptatum
+              voluptatem ipsa, minus magni, quisquam illum sit quis itaque quas.
+            </p>
+            <h6>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+              praesentium?
+            </h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam
+              officia nemo unde neque iusto minima reiciendis vitae nam deserunt
+              qui nulla rem voluptas, non velit earum, corrupti delectus sint!
+              Quibusdam quam aliquam eveniet molestias fuga assumenda culpa at,
+              temporibus tempore perspiciatis repellat architecto iste
+              aspernatur repellendus quaerat reprehenderit libero excepturi iure
+              nisi! Ipsum unde voluptatibus repellendus provident esse aliquam
+              labore, inventore ex autem nobis sunt. Cupiditate unde impedit
+              ullam blanditiis quos molestias molestiae modi iusto dignissimos,
+              sed architecto? Officiis, esse perferendis. Dolor dolores
+              voluptates quos, officia voluptatibus nesciunt voluptatum
+              voluptatem ipsa, minus magni, quisquam illum sit quis itaque quas.
+            </p>
+            <h6>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+              praesentium?
+            </h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam
+              officia nemo unde neque iusto minima reiciendis vitae nam deserunt
+              qui nulla rem voluptas, non velit earum, corrupti delectus sint!
+              Quibusdam quam aliquam eveniet molestias fuga assumenda culpa at,
+              temporibus tempore perspiciatis repellat architecto iste
+              aspernatur repellendus quaerat reprehenderit libero excepturi iure
+              nisi! Ipsum unde voluptatibus repellendus provident esse aliquam
+              labore, inventore ex autem nobis sunt. Cupiditate unde impedit
+              ullam blanditiis quos molestias molestiae modi iusto dignissimos,
+              sed architecto? Officiis, esse perferendis. Dolor dolores
+              voluptates quos, officia voluptatibus nesciunt voluptatum
+              voluptatem ipsa, minus magni, quisquam illum sit quis itaque quas.
+            </p>
           </Col>
         </Row>
       </Container>
@@ -82,4 +123,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Policy;

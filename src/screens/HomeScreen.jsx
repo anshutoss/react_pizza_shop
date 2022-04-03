@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
 // import AllPizza  from "../pizza-data";
+import { useDispatch, useSelector } from "react-redux";
 import { Container, Row, Col } from "react-bootstrap";
 import Pizza from "../components/Pizza";
+import Error from "../components/Error";
+import Filters from "../components/Filters";
 
 const HomeScreen = () => {
   const [allPizza, setAllPizza] = useState([]);
